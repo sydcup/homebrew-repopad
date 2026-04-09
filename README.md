@@ -1,6 +1,20 @@
+<div align="center">
+
+<img src="icon.png" alt="RepoPad" width="128" height="128" />
+
 # homebrew-repopad
 
-The official [Homebrew](https://brew.sh) tap for [RepoPad](https://repopad.com) — a menu bar app for quickly managing your Git repositories on macOS.
+**The official [Homebrew](https://brew.sh) tap for [RepoPad](https://repopad.com).**
+
+[![Website](https://img.shields.io/badge/website-repopad.com-1f6feb?style=flat-square)](https://repopad.com)
+[![Homebrew](https://img.shields.io/badge/homebrew-tap-FBB040?style=flat-square&logo=homebrew&logoColor=white)](https://github.com/sydcup/homebrew-repopad)
+[![macOS](https://img.shields.io/badge/macOS-15%2B-black?style=flat-square&logo=apple)](https://www.apple.com/macos/)
+
+</div>
+
+---
+
+RepoPad is a menu bar app for quickly managing your Git repositories on macOS. This tap lets you install and update it with a single Homebrew command.
 
 ## Install
 
@@ -8,7 +22,7 @@ The official [Homebrew](https://brew.sh) tap for [RepoPad](https://repopad.com) 
 brew install --cask sydcup/repopad/repopad
 ```
 
-That's it. Homebrew will fetch the latest notarized build from the [releases repo](https://github.com/sydcup/RepoPad-releases) and install `RepoPad.app` into `/Applications`.
+Homebrew will fetch the latest notarized build from [sydcup/RepoPad-releases](https://github.com/sydcup/RepoPad-releases) and install `RepoPad.app` into `/Applications`.
 
 ## Update
 
@@ -24,7 +38,7 @@ brew uninstall --cask repopad
 
 ## How it works
 
-The `Casks/repopad.rb` formula in this tap is updated automatically by the RepoPad release pipeline whenever a new version is published. Each release points at the corresponding `RepoPad-<version>.zip` artifact in [sydcup/RepoPad-releases](https://github.com/sydcup/RepoPad-releases).
+The `Casks/repopad.rb` formula in this tap is updated automatically by the RepoPad release pipeline whenever a new version ships. Each cask points at the corresponding `RepoPad-<version>.zip` artifact in [sydcup/RepoPad-releases](https://github.com/sydcup/RepoPad-releases) and is verified with SHA-256.
 
 ## Requirements
 
@@ -33,5 +47,13 @@ The `Casks/repopad.rb` formula in this tap is updated automatically by the RepoP
 
 ## Links
 
-- Website: <https://repopad.com>
-- Releases: <https://github.com/sydcup/RepoPad-releases>
+- **Website:** [repopad.com](https://repopad.com)
+- **Releases:** [sydcup/RepoPad-releases](https://github.com/sydcup/RepoPad-releases)
+
+---
+
+<div align="center">
+
+Made with care by [Sydcup](https://sydcup.com)
+
+</div>
