@@ -22,7 +22,7 @@ RepoPad is a menu bar app for quickly managing your Git repositories on macOS. T
 brew install --cask sydcup/repopad/repopad
 ```
 
-Homebrew will fetch the latest notarized build from [sydcup/RepoPad-releases](https://github.com/sydcup/RepoPad-releases) and install `RepoPad.app` into `/Applications`.
+Homebrew will fetch the latest notarized build from [sydcup/repopad-releases](https://github.com/sydcup/repopad-releases) and install `RepoPad.app` into `/Applications`.
 
 ## Update
 
@@ -38,7 +38,7 @@ brew uninstall --cask repopad
 
 ## How it works
 
-The `Casks/repopad.rb` formula in this tap is updated automatically by the RepoPad release pipeline whenever a new version ships. Each cask points at the corresponding `RepoPad-<version>.zip` artifact in [sydcup/RepoPad-releases](https://github.com/sydcup/RepoPad-releases) and is verified with SHA-256.
+The `Casks/repopad.rb` formula in this tap is updated automatically by the RepoPad release pipeline whenever a new version ships. Each cask points at the corresponding `RepoPad-<version>.zip` artifact in [sydcup/repopad-releases](https://github.com/sydcup/repopad-releases) and is verified with SHA-256.
 
 ## Requirements
 
@@ -48,7 +48,11 @@ The `Casks/repopad.rb` formula in this tap is updated automatically by the RepoP
 ## Links
 
 - **Website:** [repopad.com](https://repopad.com)
-- **Releases:** [sydcup/RepoPad-releases](https://github.com/sydcup/RepoPad-releases)
+- **Releases:** [sydcup/repopad-releases](https://github.com/sydcup/repopad-releases)
+
+## Issues & feedback
+
+Bug reports and feature requests are welcome on the [RepoPad issue tracker](https://github.com/sydcup/repopad-releases/issues).
 
 ---
 
