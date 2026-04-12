@@ -1,6 +1,6 @@
 cask "repopad" do
-  version "1.2.1"
-  sha256 "c19ba40bc6e08d9c341e8473d5ad637538f7a69566bdcae2468685a18e345211"
+  version "1.2.2"
+  sha256 "13c96399cc15b8de7f690f49273fcf7793049fbb8876f498014b10ca766ad664"
 
   url "https://github.com/sydcup/repopad-releases/releases/download/v#{version}/RepoPad-#{version}.zip"
   name "RepoPad"
